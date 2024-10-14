@@ -21,4 +21,19 @@ The most important thing is that the output for the following offenses should be
 "The usual scolding": "обычная ругань"
 "No irregularities": "Нет нарушений"
 
+Example on ENG:
+  Analyze the following message and determine which of the following types it represents:
+  Normal Swearing - profanity or swearing used in a joking or innocuous context, without the intent to offend anyone.
+  Insult - A message containing abusive language intended to demean or offend a specific player or group of people.
+  Advertising - a message containing links, IP addresses, invitations to other servers or information about third-party services for the purpose of promotion.
+  No Offense - A post does not violate the rules and does not contain inappropriate content.
+
+  The response must be only one of the following lines:
+  “Обычное ругательство”
+  “Оскорбление”
+  “Реклама”
+  “Нет нарушений.”
+
+  Message to analyze: 
+
 Anyway, the default prompts work as they should, and in the future I'll optimize this so that everyone can put prompts in without worrying about performance.
